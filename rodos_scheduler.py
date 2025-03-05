@@ -5,25 +5,25 @@ from datetime import datetime
 
 # Списки URL для разных запросов
 MORNING_URLS = [
-    "http://192.168.60.11/protect/rb0n.cgi",
-    "http://192.168.60.11/protect/rb1n.cgi",
-    "http://192.168.60.11/protect/rb2n.cgi",
-    "http://192.168.60.11/protect/rb3n.cgi",
-    "http://192.168.60.11/protect/rb4n.cgi",
-    "http://192.168.60.11/protect/rb5n.cgi",
-    "http://192.168.60.11/protect/rb6n.cgi",
-    "http://192.168.60.11/protect/rb7n.cgi"
+    "http://admin:admin@192.168.60.11/protect/rb0n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb1n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb2n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb3n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb4n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb5n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb6n.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb7n.cgi"
 ]
 
 EVENING_URLS = [
-    "http://192.168.60.11/protect/rb0f.cgi",
-    "http://192.168.60.11/protect/rb1f.cgi",
-    "http://192.168.60.11/protect/rb2f.cgi",
-    "http://192.168.60.11/protect/rb3f.cgi",
-    "http://192.168.60.11/protect/rb4f.cgi",
-    "http://192.168.60.11/protect/rb5f.cgi",
-    "http://192.168.60.11/protect/rb6f.cgi",
-    "http://192.168.60.11/protect/rb7f.cgi"
+    "http://admin:admin@192.168.60.11/protect/rb0f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb1f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb2f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb3f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb4f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb5f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb6f.cgi",
+    "http://admin:admin@192.168.60.11/protect/rb7f.cgi"
 ]
 
 def send_requests(url_list, time_label):
