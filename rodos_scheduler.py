@@ -29,7 +29,7 @@ EVENING_URLS = [
 def send_requests(url_list, time_label):
     today = datetime.today().weekday()
     if today >= 5:
-        print(f"[{datetime.now()}] Weekend — {time_label} requests dismissed")
+        print(f"[{datetime.now()}] Weekend! — {time_label} requests dismissed")
         return
 
     print(f"[{datetime.now()}] Starting {time_label} requests...")
@@ -60,4 +60,8 @@ schedule.every().day.at("23:59").do(send_evening_requests)
 print("Script is working. Wait to special time...")
 while True:
     schedule.run_pending()
+<<<<<<< HEAD
     time.sleep(60)
+=======
+    time.sleep(60)
+>>>>>>> ef42f9e21a04089f02ebf9fce781b950dc15a1c2
