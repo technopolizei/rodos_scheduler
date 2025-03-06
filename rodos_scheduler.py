@@ -60,8 +60,4 @@ schedule.every().day.at("23:59").do(send_evening_requests)
 print("Script is working. Wait to special time...")
 while True:
     schedule.run_pending()
-<<<<<<< HEAD
     time.sleep(60)
-=======
-    time.sleep(60)
->>>>>>> ef42f9e21a04089f02ebf9fce781b950dc15a1c2
